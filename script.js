@@ -22,3 +22,12 @@ function attendreAvantDeDisparaitre() {
 
 }
 attendreAvantDeDisparaitre();
+
+
+/* montrer le toast quand on load la page */
+window.onload = (event) => {
+  var toastLiveExample = document.getElementById('liveToast')
+  var toast = new bootstrap.Toast(toastLiveExample)
+  
+  toast.show()
+}

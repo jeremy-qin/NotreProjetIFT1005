@@ -48,7 +48,105 @@
       </nav>
       <!--Contenu-->
       <div class="container">
-
+        <div class="top">
+            <div id="hello">Welcome to our IFT1005 project website!</div>
+        </div>
+        <div class="intro">
+            <h1>Introduction</h1>
+            <p>This final project of our introductory class to web design consists of a <span style="color: blue;">portfolio</span> website presenting ourself and our partner. You could learn more about ourselves,
+                university students studying at <span style="color: blue;">Université de Montréal</span>.
+            </p>
+            <p>We mainly used <span style="color: blue;">HTML, CSS, Javascript and Bootstrap</span>.</p>
+        </div>
+        <br>
+        <div class="container">
+            <h1 style="text-align: center;">Navigate through the different sections</h1>
+            <br>
+            <div class="card-group">
+                <div class="card" style="width: 18rem;">
+                <img src="assets/welcome.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Welcome Page</h5>
+                    <p class="card-text">Home page that presents an overview of the project and the organization of the different sections.</p>
+                    <a href="index.html" class="btn btn-primary stretched-link">Go now!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img style="height: 225px;" src="assets/computer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Jeremy's Profile</h5>
+                    <p class="card-text">Get to know more about Jeremy Qin, an university student in Montreal.</p>
+                    <a href="index.html" class="btn btn-primary stretched-link">Go now!</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/welcome.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Zheng's Profile</h5>
+                    <p class="card-text">Get to know more about Zheng, an university student.</p>
+                    <a href="index.html" class="btn btn-primary stretched-link">Go now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 style="text-align: center;">Learn more about...</h1>
+            <br>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Université de Montréal
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Université de Montréal</strong> is a public canadian research university in Quebec, Montreal. The institution comprises thirteen faculties, more than sixty departments and two[10] affiliated schools: the Polytechnique Montréal (School of Engineering; formerly the École polytechnique de Montréal) and HEC Montréal (School of Business). It offers more than 650 undergraduate programmes and graduate programmes, including 71 doctoral programmes.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      DIRO
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>DIRO</strong> is Université de Montréal computer science and operational research department. It has the chance to have numerous impactful researchers that contributes to different aspects of computer science whether it be Artificial Intelligence, Quantum computing or else.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      IFT1005
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>IFT1005</strong> is the introductory class to web design and web development. The main content of this course is an introduction to the internet and the web, Markup languages, Standards, Stylesheets, DOM, AJAX and Javascript. The course is a mix of theoretical classes and weekly practical exercises.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="container">
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <!-- votre icone ici a la plage du <img> ci dessous-->
+                        <i class="bi bi-activity"></i>
+                        <strong class="me-auto">Welcome aboard!</strong>
+                        <small>Now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Hi! Welcome to our website. Have fun!
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
     <!-- votre footer que vous devez modifier pour mettre vos infos a vous :-) -->
     <footer class="text-center text-lg-start bg-light text-muted">

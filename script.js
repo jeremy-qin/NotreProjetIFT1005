@@ -9,6 +9,8 @@
 
 function faireDisparaitre() {
     /* votre code pour le faux loading ici!*/
+    var loading = document.getElementById("fauxloading");
+    loading.style.display = "none";
 }
 
 
